@@ -1,0 +1,557 @@
+body{
+    max-width: 100vw;
+    margin: 0 auto;
+}
+
+header{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.logo {
+    max-width: 100%;
+    height: 4em;
+}
+.navbar-toggler-icon{
+    display: inline-block;
+    /* color: black; */
+}
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin:0px 5px  0px 10px ;
+  }
+
+header button{
+    color: red;
+    padding-right:15px;
+    font-size: small;
+    border-top-right-radius: 55%;
+    border-bottom-right-radius: 50%;    
+}
+
+#headerSub{
+    padding: 0px 2em 0px 2em;
+    background-color: red;
+    color: white;
+    font: bold;
+    margin-right: 200px
+    /* margin: 10px; */
+}
+.adtoggle{
+    margin-right: 30%;
+}
+.adtoggle p{
+    margin-bottom: 3px;
+    color: gray;
+    font-size: smaller;
+}
+.spot{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 4px;
+}
+.on{
+    background-color: red;
+    color: white;
+}
+
+.adtoggle button{
+    font: bold;
+    font-size: smaller;
+}
+
+
+nav{
+    text-align: center;
+}
+.navbar{
+    background-color: white;
+    text-align: center;
+    padding-left: 10%;
+    
+}
+.a{
+    padding-left: 5em;
+}
+
+.container-fluid, nav, #nav{
+    background-color: white;
+}
+.container-fluid{
+    margin-bottom: -2.5em
+}
+hr, .container-fluid hr{
+    border-top: 1px solid gray;
+}
+
+
+
+/* off modal */
+.modal, .modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: white;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+  }
+
+  .modal-content h5, .email, .tos, .enter, .modal-content p{
+      margin-top: 1em;
+  }
+  .modal-content h1 {
+    text-align: center;
+  }
+  .modal-content h5, .modal-content p{
+      text-align: center;
+  }
+  .modal-content h5 span{
+      font-weight: bold;
+  }
+  .email, .enter{
+      width: 90%;
+      margin-left: 5%;
+      text-align: center;
+      padding-top: .3em;
+      padding-bottom: .3em;
+  }
+
+  .email{
+    background-color: rgba(255, 215, 222, 0.973);
+  }
+  .modal-content .enter{
+      background-color: red;
+      font-size: 1em;
+      color: white;
+      font-weight: bold;
+  }
+  .tos{
+      display: inline;
+  }
+  
+  /* The Close Button */
+  .close, .close2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus , .close2:hover, .close2:focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+#collapsibleNavbar .nav-link{
+    color: black;
+    margin-top: 1.5em
+}
+
+#topics{
+    color: red;
+    text-align: center;
+}
+ul{
+    text-decoration: none;
+    display: inline;
+    
+}
+li{
+    display: inline-block;
+    padding-left: 20px; 
+}
+
+#topadparent{
+    text-align: center;
+}
+.topad{
+    justify-content: center;
+    max-width: 100%;
+    margin-right: 5vw;
+}
+.colsix img, .colone img{
+    max-width: 100%;
+}
+.colone div{
+    display: flex;
+}
+.colone{
+    display: inline;
+}
+.colone label{
+    padding-left: 1em
+}
+.sponser span:first-of-type{
+    padding-right: .5em
+}
+.sponser span{
+    /* display: inline; */
+    color: red
+}
+#banner{
+    display: inline;
+   margin-left: 11%
+}
+.banner{
+    max-width: 100%;
+    text-align: center;
+}
+.slideAds{
+    text-align: center;
+    padding: 5px;;
+    border: 1px solid black;
+    margin-top: 10px;
+    max-width: 100%;
+    
+}
+
+label button{
+    color: white;
+    background-color: red;
+}
+.slideAds label{
+    padding-top: 5px;
+    
+}
+.labelForAd{
+    margin-left: 30%
+}
+#hotwire .top{
+    
+    border-top: 1px solid black;
+}
+#hotwire .side {
+    padding: .5em;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#hotwire .bottom{
+    border-bottom: 1px solid black;
+}
+.colone .showMore{
+    width: 100%;
+}
+
+.container-fluid{
+    max-width: 80%;
+}
+#topadparent, .colsix, .banner, .colone .labelForAd{
+    margin-bottom: 3em;
+}
+
+.showMore{
+    background-color: black;
+    margin-top: 3em
+}
+.showMore button{
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    padding: 1em;
+    border: none;
+}
+.showMore a{
+    margin-left: 40%;
+}
+div.mobileAd{
+    display: none;
+}
+/* .firstfooter{
+    background-color: black;
+    margin-top: 3em;
+    color: white;
+    padding: 3em;
+    padding-bottom: 4em;
+    text-align: center;
+}
+.firstfooter p{
+    display: inline;
+    padding-right: 1em;
+    padding-bottom: 2em;
+}
+#footerbtn{
+    padding: 0px 2em 0px 2em;
+    background-color: red;
+    color: white;
+    font: bold; 
+}
+.podcast{
+    display: flex
+}
+.footer{
+    background-color: black;
+    /* margin-bottom: -5vh; */
+    /* display: flex;
+    border-bottom: 2px solid gray;
+    justify-content: center;
+    color: white;
+    font-weight: bold; */
+    
+    /* padding: 7vh; */
+/* } */
+/* .footer:first-of-type{
+    /* padding-bottom: 4em; */
+    /* border-bottom: 2px solid gray; */
+/* }
+.col-sm-6{
+    border-bottom: 2px solid gray; 
+}  */
+
+#footer{
+    min-width: 100vw;
+    margin-top: 3em;
+}
+#footer .col-sm-6{
+    border-bottom: 2px solid grey
+}
+#footer .row{
+    background-color: black;
+    color:white;
+    text-align: center;
+
+}
+#footer .top{
+    padding: 1em;
+    padding-top: 2em;
+    border-bottom: 2px solid grey
+}
+
+#footer .top button{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 0px 2em 0px 2em;
+    margin-left: 1em
+}
+
+#footer .top span{
+    font-weight: bold
+}
+
+.col-sm-6{
+    display: flex;
+    text-align: center;
+    padding: 1em
+}
+.col-sm-6 a{
+    margin-left: 5em
+}
+.col-sm-6 p{
+    color: gray;
+    text-transform: uppercase;
+    font-size: small;
+    text-align: left;
+    
+}
+.col-sm-6 button{
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    border: none;
+    font-size: 24px;
+}
+
+.row .legal{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-align: center;
+}
+.legal a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.legal img{
+    padding-right: 2vw;
+}
+.legal .fa{
+    padding-right: 1vw;
+}
+.legalBtn{
+    padding-left: 2vw
+}
+.demo{
+    background-color: black;
+    color: white;
+    margin-top: 5vh;
+    padding-bottom: 5vh;
+    text-align: center;
+}
+.legal a, .demo p{
+    font-size: small;
+    font-weight: normal
+}
+.smallnav span{
+    color: red;
+}
+/* Media Query Phone Size */
+@media (max-width: 767.98px) { 
+    .modal-content{
+        width: 100%;
+        margin-left: -.02em
+  
+    }
+    .navbar-toggler-icon{
+        background-color: black;  
+    }
+    .logo{
+        max-width: 40%;
+    }
+    .navbar{
+        display: inline;
+        padding-left: 0;
+    }
+    .adtoggle{
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 5%; 
+        padding-top: 3%;
+        display: inline-block;   
+    }
+    #topics{
+        display: flex;
+        width: 100%;
+        overflow: scroll;
+        scrollbar-darkshadow-color: #888;
+        scroll-behavior: smooth;
+        text-align: left;
+    }
+    ul{
+        display: flex;
+    }
+    ul li:first-of-type{
+       padding-left: 0
+    }
+    .topad{
+        max-width: 70%;
+    }
+    #topadparent{
+        background-color: lightgray;
+        padding: 10px;
+    
+        text-align: center;
+    }
+
+    #topadparent, .colsix, .banner, .colone .labelForAd, .showMore, div.mobileAd,  #hotwire .bottom, #adLabel{
+        margin-bottom: 1em;
+    }
+    .colsix img{
+        max-width: 100%;
+        /* padding: 20px; */
+        text-align: center
+    }
+    .colsix h1{
+        font-size: 1.5em
+    }
+    .colone span {
+        font-size: 1em
+    }
+    .colone p{
+        font-size: .8em
+    }
+    .sponser span:first-child{
+        padding-left: 5em
+    }
+    .banner{
+        width: 80%;
+    }
+    div.slideAds{
+      
+        /* margin-left: 40%; */
+        
+        max-width: 100%;
+
+    }
+    .topMobileAd{
+        border: 1px solid black;
+        border-bottom: none;
+    }
+    #adLabel{
+        border: 1px solid black;
+        border-top: none;
+        width: 96.5%
+    }
+
+    .colone .labelForAd{
+        padding-top: 2%;
+        margin-left: 8%
+    }
+    #hotwire{
+        border-left: none;
+        border-right: none;
+    }
+    .showMore button{
+        padding: .2em
+    }
+    .showMore a{
+        margin-left: 35%;
+        font-size: smaller
+    }
+    div.rightPanelAd, .largeAd{
+        display: none;
+    }
+    div.mobileAd{
+       display: inline-block;
+    }
+    .col-sm-6 a{
+        margin-left: 0;
+        font-size: x-small;
+      
+    }
+    .col-sm-6 button{
+        font-size: 15px;
+    }
+    .col-sm-6 p{
+        margin-top: 2.5em;
+        margin-right: .6em
+    }
+    .adtogglebig{
+        display: none
+    }
+    #headerSub{
+        margin-left: 6.5em
+    }
+    #topics{
+        display: none
+    }
+}
+
+@media (min-width: 767.98px){
+    .topMobileAd{
+        margin-left: 30%
+    }
+    .adtogglesmall{
+        display: none;
+    }
+    .smallnav{
+        display:none
+    }
+} 
+
